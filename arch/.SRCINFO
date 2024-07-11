@@ -1,0 +1,15 @@
+pkgbase = eviacam
+	pkgdesc = A mouse replacement software that moves the pointer as you move your head
+	pkgver = 3.0.0
+	pkgrel = 0
+	url = https://eviacam.crea-si.com
+	arch = x86_64
+	license = GPL3
+	depends = opencv
+	depends = wxgtk
+	depends = wxgtk3
+	provides = eviacam
+	source = eviacam-3.0.0.tar.gz::https://github.com/xxxserxxx/eviacam/archive/3.0.0.tar.gz
+	sha256sums = cf0a610c9493dc62e3bafff489c8f4657603ac282e9312e142e6a39aeea152ef
+
+pkgname = eviacam
